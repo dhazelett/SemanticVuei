@@ -4,14 +4,14 @@
         <segment attached="top">
             <p>top</p>
         </segment>
-
         <segment attached>
             <p>middle</p>
         </segment>
-
         <segment attached="bottom">
             <p>bottom</p>
         </segment>
+
+        <divider horizontal>OR</divider>
 
         <segment>
             <icons large>
@@ -93,21 +93,23 @@
 </template>
 
 <script>
-import Container from './Elements/Container.vue'
-import Segment from './Elements/Segment.vue'
-import Buttons from './Elements/Buttons.vue'
 import Btn from './Elements/Btn.vue'
+import Buttons from './Elements/Buttons.vue'
+import Container from './Elements/Container.vue'
+import Divider from './Elements/Divider.vue'
+import Segment from './Elements/Segment.vue'
 import Icons from './Elements/Icons.vue'
 import Icon from './Elements/Icon.vue'
 
 export default {
   components: {
-    Container,
-    Segment,
     Buttons,
     Btn,
+    Container,
+    Divider,
     Icons,
-    Icon
+    Icon,
+    Segment
   }
 }
 </script>
