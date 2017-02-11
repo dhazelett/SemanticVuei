@@ -2,7 +2,7 @@
     <container id="app">
 
         <segment attached="top">
-            <p>top</p>
+            <flag code="us"></flag>
         </segment>
         <segment attached>
             <p>middle</p>
@@ -97,6 +97,8 @@ import Btn from './Elements/Btn.vue'
 import Buttons from './Elements/Buttons.vue'
 import Container from './Elements/Container.vue'
 import Divider from './Elements/Divider.vue'
+import Flag from './Elements/Flag.vue'
+
 import Segment from './Elements/Segment.vue'
 import Icons from './Elements/Icons.vue'
 import Icon from './Elements/Icon.vue'
@@ -107,6 +109,8 @@ export default {
     Btn,
     Container,
     Divider,
+    Flag,
+
     Icons,
     Icon,
     Segment
