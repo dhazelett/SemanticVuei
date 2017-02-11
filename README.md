@@ -2,6 +2,8 @@
 
 > Semantic-UI built with Vue.js
 
+This repo will remain an absolute mess, until i feel that it is ready for distribution.
+
 ## Build Setup
 
 ``` bash
